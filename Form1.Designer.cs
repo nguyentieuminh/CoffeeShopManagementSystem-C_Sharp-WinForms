@@ -35,14 +35,14 @@ namespace Quản_lý_bán_hàng_cafe
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox_MatKhau = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox_TenDN = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -58,18 +58,18 @@ namespace Quản_lý_bán_hàng_cafe
             this.guna2Panel2.Controls.Add(this.linkLabel1);
             this.guna2Panel2.Controls.Add(this.guna2ControlBox1);
             this.guna2Panel2.Controls.Add(this.guna2Button1);
-            this.guna2Panel2.Controls.Add(this.guna2TextBox2);
-            this.guna2Panel2.Controls.Add(this.guna2TextBox1);
+            this.guna2Panel2.Controls.Add(this.guna2TextBox_MatKhau);
+            this.guna2Panel2.Controls.Add(this.guna2TextBox_TenDN);
             this.guna2Panel2.Controls.Add(this.label3);
             this.guna2Panel2.Controls.Add(this.label2);
             this.guna2Panel2.Controls.Add(this.label1);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Right;
             this.guna2Panel2.FillColor = System.Drawing.Color.Sienna;
-            this.guna2Panel2.Location = new System.Drawing.Point(503, 0);
+            this.guna2Panel2.Location = new System.Drawing.Point(419, 0);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.BorderRadius = 60;
             this.guna2Panel2.ShadowDecoration.Enabled = true;
-            this.guna2Panel2.Size = new System.Drawing.Size(622, 607);
+            this.guna2Panel2.Size = new System.Drawing.Size(706, 607);
             this.guna2Panel2.TabIndex = 1;
             // 
             // linkLabel1
@@ -91,7 +91,7 @@ namespace Quản_lý_bán_hàng_cafe
             this.guna2ControlBox1.FillColor = System.Drawing.Color.Sienna;
             this.guna2ControlBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(549, 12);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(633, 12);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(61, 52);
             this.guna2ControlBox1.TabIndex = 6;
@@ -115,54 +115,55 @@ namespace Quản_lý_bán_hàng_cafe
             this.guna2Button1.Size = new System.Drawing.Size(206, 61);
             this.guna2Button1.TabIndex = 5;
             this.guna2Button1.Text = "Đăng nhập";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // guna2TextBox2
+            // guna2TextBox_MatKhau
             // 
-            this.guna2TextBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox2.BorderRadius = 20;
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(210, 294);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '*';
-            this.guna2TextBox2.PlaceholderText = "";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.ShadowDecoration.BorderRadius = 20;
-            this.guna2TextBox2.ShadowDecoration.Enabled = true;
-            this.guna2TextBox2.Size = new System.Drawing.Size(359, 48);
-            this.guna2TextBox2.TabIndex = 4;
+            this.guna2TextBox_MatKhau.BackColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox_MatKhau.BorderRadius = 20;
+            this.guna2TextBox_MatKhau.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox_MatKhau.DefaultText = "";
+            this.guna2TextBox_MatKhau.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox_MatKhau.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox_MatKhau.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox_MatKhau.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox_MatKhau.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox_MatKhau.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox_MatKhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox_MatKhau.Location = new System.Drawing.Point(210, 294);
+            this.guna2TextBox_MatKhau.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox_MatKhau.Name = "guna2TextBox_MatKhau";
+            this.guna2TextBox_MatKhau.PasswordChar = '*';
+            this.guna2TextBox_MatKhau.PlaceholderText = "";
+            this.guna2TextBox_MatKhau.SelectedText = "";
+            this.guna2TextBox_MatKhau.ShadowDecoration.BorderRadius = 20;
+            this.guna2TextBox_MatKhau.ShadowDecoration.Enabled = true;
+            this.guna2TextBox_MatKhau.Size = new System.Drawing.Size(359, 48);
+            this.guna2TextBox_MatKhau.TabIndex = 4;
             // 
-            // guna2TextBox1
+            // guna2TextBox_TenDN
             // 
-            this.guna2TextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox1.BorderColor = System.Drawing.Color.White;
-            this.guna2TextBox1.BorderRadius = 20;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(210, 211);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.BorderRadius = 20;
-            this.guna2TextBox1.ShadowDecoration.Enabled = true;
-            this.guna2TextBox1.Size = new System.Drawing.Size(359, 48);
-            this.guna2TextBox1.TabIndex = 3;
+            this.guna2TextBox_TenDN.BackColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox_TenDN.BorderColor = System.Drawing.Color.White;
+            this.guna2TextBox_TenDN.BorderRadius = 20;
+            this.guna2TextBox_TenDN.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox_TenDN.DefaultText = "";
+            this.guna2TextBox_TenDN.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox_TenDN.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox_TenDN.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox_TenDN.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox_TenDN.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox_TenDN.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox_TenDN.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox_TenDN.Location = new System.Drawing.Point(210, 211);
+            this.guna2TextBox_TenDN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox_TenDN.Name = "guna2TextBox_TenDN";
+            this.guna2TextBox_TenDN.PlaceholderText = "";
+            this.guna2TextBox_TenDN.SelectedText = "";
+            this.guna2TextBox_TenDN.ShadowDecoration.BorderRadius = 20;
+            this.guna2TextBox_TenDN.ShadowDecoration.Enabled = true;
+            this.guna2TextBox_TenDN.Size = new System.Drawing.Size(359, 48);
+            this.guna2TextBox_TenDN.TabIndex = 3;
             // 
             // label3
             // 
@@ -172,7 +173,7 @@ namespace Quản_lý_bán_hàng_cafe
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label3.Location = new System.Drawing.Point(15, 310);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(122, 32);
+            this.label3.Size = new System.Drawing.Size(116, 31);
             this.label3.TabIndex = 2;
             this.label3.Text = "Mặt khẩu";
             // 
@@ -210,11 +211,6 @@ namespace Quản_lý_bán_hàng_cafe
             this.guna2Panel1.Size = new System.Drawing.Size(545, 607);
             this.guna2Panel1.TabIndex = 0;
             // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.BorderRadius = 60;
-            this.guna2Elipse2.TargetControl = this;
-            // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Moccasin;
@@ -229,6 +225,11 @@ namespace Quản_lý_bán_hàng_cafe
             this.guna2PictureBox1.TabIndex = 2;
             this.guna2PictureBox1.TabStop = false;
             // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.BorderRadius = 60;
+            this.guna2Elipse2.TargetControl = this;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -240,6 +241,7 @@ namespace Quản_lý_bán_hàng_cafe
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             this.guna2Panel1.ResumeLayout(false);
@@ -254,8 +256,8 @@ namespace Quản_lý_bán_hàng_cafe
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox_MatKhau;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox_TenDN;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
