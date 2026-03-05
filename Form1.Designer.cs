@@ -41,12 +41,10 @@ namespace Quản_lý_bán_hàng_cafe
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-<<<<<<< HEAD
-            this.label4 = new System.Windows.Forms.Label();
-=======
->>>>>>> 4202c7ab33c1348d45a42d3fb6b1cb3a6dd4109e
+            this.label_warnTenDN = new System.Windows.Forms.Label();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -59,6 +57,7 @@ namespace Quản_lý_bán_hàng_cafe
             // 
             // guna2Panel2
             // 
+            this.guna2Panel2.Controls.Add(this.label_warnTenDN);
             this.guna2Panel2.Controls.Add(this.linkLabel1);
             this.guna2Panel2.Controls.Add(this.guna2ControlBox1);
             this.guna2Panel2.Controls.Add(this.guna2Button1);
@@ -69,19 +68,11 @@ namespace Quản_lý_bán_hàng_cafe
             this.guna2Panel2.Controls.Add(this.label1);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Right;
             this.guna2Panel2.FillColor = System.Drawing.Color.Sienna;
-<<<<<<< HEAD
             this.guna2Panel2.Location = new System.Drawing.Point(434, 0);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.BorderRadius = 60;
             this.guna2Panel2.ShadowDecoration.Enabled = true;
             this.guna2Panel2.Size = new System.Drawing.Size(691, 607);
-=======
-            this.guna2Panel2.Location = new System.Drawing.Point(419, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.BorderRadius = 60;
-            this.guna2Panel2.ShadowDecoration.Enabled = true;
-            this.guna2Panel2.Size = new System.Drawing.Size(706, 607);
->>>>>>> 4202c7ab33c1348d45a42d3fb6b1cb3a6dd4109e
             this.guna2Panel2.TabIndex = 1;
             // 
             // linkLabel1
@@ -103,11 +94,7 @@ namespace Quản_lý_bán_hàng_cafe
             this.guna2ControlBox1.FillColor = System.Drawing.Color.Sienna;
             this.guna2ControlBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-<<<<<<< HEAD
             this.guna2ControlBox1.Location = new System.Drawing.Point(618, 12);
-=======
-            this.guna2ControlBox1.Location = new System.Drawing.Point(633, 12);
->>>>>>> 4202c7ab33c1348d45a42d3fb6b1cb3a6dd4109e
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(61, 52);
             this.guna2ControlBox1.TabIndex = 6;
@@ -189,7 +176,7 @@ namespace Quản_lý_bán_hàng_cafe
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label3.Location = new System.Drawing.Point(15, 294);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 31);
+            this.label3.Size = new System.Drawing.Size(122, 32);
             this.label3.TabIndex = 2;
             this.label3.Text = "Mặt khẩu";
             // 
@@ -228,6 +215,18 @@ namespace Quản_lý_bán_hàng_cafe
             this.guna2Panel1.Size = new System.Drawing.Size(545, 607);
             this.guna2Panel1.TabIndex = 0;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Moccasin;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.BurlyWood;
+            this.label4.Location = new System.Drawing.Point(32, 351);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(382, 38);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Hệ thống quản lý cửa hàng ";
+            // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Moccasin;
@@ -247,21 +246,17 @@ namespace Quản_lý_bán_hàng_cafe
             this.guna2Elipse2.BorderRadius = 60;
             this.guna2Elipse2.TargetControl = this;
             // 
-<<<<<<< HEAD
-            // label4
+            // label_warnTenDN
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Moccasin;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.BurlyWood;
-            this.label4.Location = new System.Drawing.Point(32, 351);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(382, 38);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Hệ thống quản lý cửa hàng ";
+            this.label_warnTenDN.AutoSize = true;
+            this.label_warnTenDN.BackColor = System.Drawing.Color.Sienna;
+            this.label_warnTenDN.ForeColor = System.Drawing.Color.Red;
+            this.label_warnTenDN.Location = new System.Drawing.Point(219, 267);
+            this.label_warnTenDN.Name = "label_warnTenDN";
+            this.label_warnTenDN.Size = new System.Drawing.Size(221, 17);
+            this.label_warnTenDN.TabIndex = 8;
+            this.label_warnTenDN.Text = "Sai tên đăng nhập hoặc mặt khẩu";
             // 
-=======
->>>>>>> 4202c7ab33c1348d45a42d3fb6b1cb3a6dd4109e
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -299,6 +294,7 @@ namespace Quản_lý_bán_hàng_cafe
         private System.Windows.Forms.LinkLabel linkLabel1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label_warnTenDN;
     }
 }
 

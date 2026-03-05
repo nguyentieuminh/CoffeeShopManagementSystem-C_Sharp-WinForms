@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Security.Cryptography;
 
 namespace Quản_lý_bán_hàng_cafe
 {
@@ -19,11 +20,38 @@ namespace Quản_lý_bán_hàng_cafe
         {
             InitializeComponent();
         }
+        private string MaHoaSHA256(string input)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(input));
 
+                StringBuilder builder = new StringBuilder();
+                foreach (byte b in bytes)
+                {
+                    builder.Append(b.ToString("x2"));
+                }
+
+                return builder.ToString();
+            }
+        }
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             string TenDN = guna2TextBox_TenDN.Text;
-            string MatKhau = guna2TextBox_MatKhau.Text;
+            string MatKhau = MaHoaSHA256(guna2TextBox_MatKhau.Text);
+
+
+            if (TenDN == "")
+            {
+                MessageBox.Show("Không được để trống tên đăng nhập");
+            }
+
+            else if (MatKhau == "")
+            {
+                MessageBox.Show("Không được để trống mật khẩu");
+            }
+
+
             string sql = "SELECT COUNT(*) FROM DangNhap WHERE TenDN=@ten AND MatKhau=@mk";
 
             SqlCommand cmd = new SqlCommand(sql, conn);
@@ -32,12 +60,13 @@ namespace Quản_lý_bán_hàng_cafe
             int count = (int)cmd.ExecuteScalar();
             if (count > 0)
             {
+                label_warnTenDN.Visible = false;
                 Dashboard dashboard = new Dashboard();
                 dashboard.ShowDialog();
             }
             else
             {
-                MessageBox.Show("Sai tài khoản hoặc mật khẩu!");
+                label_warnTenDN.Visible = true;
             }
 
 
@@ -45,6 +74,7 @@ namespace Quản_lý_bán_hàng_cafe
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            label_warnTenDN.Visible = false;
             conn = new SqlConnection(connStr);
             conn.Open();
         }
