@@ -16,5 +16,7 @@ namespace Quản_lý_bán_hàng_cafe
         {
             InitializeComponent();
         }
+
+       
     }
 }
