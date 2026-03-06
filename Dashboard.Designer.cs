@@ -29,12 +29,12 @@ namespace Quản_lý_bán_hàng_cafe
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -55,7 +55,24 @@ namespace Quản_lý_bán_hàng_cafe
             this.btn_Ban2 = new System.Windows.Forms.Button();
             this.btn_Ban1 = new System.Windows.Forms.Button();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Them_mon = new System.Windows.Forms.Panel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.num1_SoLuong = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.label12 = new System.Windows.Forms.Label();
+            this.Xoa_mon = new System.Windows.Forms.Panel();
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.xoaMon = new Guna.UI2.WinForms.Guna2Button();
+            this.box2ChonMon = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.btn_Themmon1 = new Guna.UI2.WinForms.Guna2Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.box1ChonMon = new Guna.UI2.WinForms.Guna2ComboBox();
             this.ChuyenMon = new System.Windows.Forms.Panel();
+            this.num2_SoLuong = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.label20 = new System.Windows.Forms.Label();
+            this.guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label19 = new System.Windows.Forms.Label();
             this.box4ChonMon = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -66,20 +83,6 @@ namespace Quản_lý_bán_hàng_cafe
             this.GuiQuay = new Guna.UI2.WinForms.Guna2Button();
             this.box3ChonMon = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.Xoa_mon = new System.Windows.Forms.Panel();
-            this.Them_mon = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.num1_SoLuong = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.label12 = new System.Windows.Forms.Label();
-            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.btn_Themmon1 = new Guna.UI2.WinForms.Guna2Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.box1ChonMon = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.xoaMon = new Guna.UI2.WinForms.Guna2Button();
-            this.box2ChonMon = new Guna.UI2.WinForms.Guna2ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.btn_Guiquay = new Guna.UI2.WinForms.Guna2Button();
@@ -154,18 +157,16 @@ namespace Quản_lý_bán_hàng_cafe
             this.button31 = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.num2_SoLuong = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.guna2TabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
-            this.ChuyenMon.SuspendLayout();
-            this.Gui_quay.SuspendLayout();
-            this.Xoa_mon.SuspendLayout();
             this.Them_mon.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num1_SoLuong)).BeginInit();
+            this.Xoa_mon.SuspendLayout();
+            this.ChuyenMon.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.num2_SoLuong)).BeginInit();
+            this.Gui_quay.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -192,7 +193,6 @@ namespace Quản_lý_bán_hàng_cafe
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
             this.tabPage9.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.num2_SoLuong)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2TabControl1
@@ -465,171 +465,6 @@ namespace Quản_lý_bán_hàng_cafe
             this.guna2Panel2.Size = new System.Drawing.Size(754, 322);
             this.guna2Panel2.TabIndex = 2;
             // 
-            // ChuyenMon
-            // 
-            this.ChuyenMon.Controls.Add(this.num2_SoLuong);
-            this.ChuyenMon.Controls.Add(this.label20);
-            this.ChuyenMon.Controls.Add(this.guna2ControlBox4);
-            this.ChuyenMon.Controls.Add(this.guna2Button1);
-            this.ChuyenMon.Controls.Add(this.label19);
-            this.ChuyenMon.Controls.Add(this.box4ChonMon);
-            this.ChuyenMon.Controls.Add(this.label18);
-            this.ChuyenMon.Location = new System.Drawing.Point(63, 66);
-            this.ChuyenMon.Name = "ChuyenMon";
-            this.ChuyenMon.Size = new System.Drawing.Size(291, 221);
-            this.ChuyenMon.TabIndex = 5;
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(127, 167);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(136, 45);
-            this.guna2Button1.TabIndex = 13;
-            this.guna2Button1.Text = "Chuyển món";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(123, 16);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(97, 20);
-            this.label19.TabIndex = 12;
-            this.label19.Text = "Chuyển món";
-            // 
-            // box4ChonMon
-            // 
-            this.box4ChonMon.BackColor = System.Drawing.Color.Transparent;
-            this.box4ChonMon.BorderRadius = 10;
-            this.box4ChonMon.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.box4ChonMon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.box4ChonMon.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.box4ChonMon.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.box4ChonMon.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.box4ChonMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.box4ChonMon.ItemHeight = 30;
-            this.box4ChonMon.Items.AddRange(new object[] {
-            "Cà phê sữa đá",
-            "Bạc xỉu",
-            "Trà đào cam sả",
-            "Nước ép cam",
-            "Sinh tố bơ"});
-            this.box4ChonMon.Location = new System.Drawing.Point(90, 65);
-            this.box4ChonMon.Name = "box4ChonMon";
-            this.box4ChonMon.Size = new System.Drawing.Size(173, 36);
-            this.box4ChonMon.TabIndex = 12;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(3, 69);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(81, 20);
-            this.label18.TabIndex = 12;
-            this.label18.Text = "Chọn món";
-            // 
-            // Gui_quay
-            // 
-            this.Gui_quay.Controls.Add(this.guna2ControlBox3);
-            this.Gui_quay.Controls.Add(this.label17);
-            this.Gui_quay.Controls.Add(this.GuiQuay);
-            this.Gui_quay.Controls.Add(this.box3ChonMon);
-            this.Gui_quay.Controls.Add(this.label16);
-            this.Gui_quay.Location = new System.Drawing.Point(404, 112);
-            this.Gui_quay.Name = "Gui_quay";
-            this.Gui_quay.Size = new System.Drawing.Size(320, 175);
-            this.Gui_quay.TabIndex = 4;
-            // 
-            // guna2ControlBox3
-            // 
-            this.guna2ControlBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox3.FillColor = System.Drawing.Color.Red;
-            this.guna2ControlBox3.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox3.Location = new System.Drawing.Point(261, 10);
-            this.guna2ControlBox3.Name = "guna2ControlBox3";
-            this.guna2ControlBox3.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox3.TabIndex = 11;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(174, 19);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(72, 20);
-            this.label17.TabIndex = 9;
-            this.label17.Text = "Gửi quầy";
-            // 
-            // GuiQuay
-            // 
-            this.GuiQuay.BorderRadius = 10;
-            this.GuiQuay.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.GuiQuay.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.GuiQuay.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.GuiQuay.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.GuiQuay.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GuiQuay.ForeColor = System.Drawing.Color.White;
-            this.GuiQuay.Location = new System.Drawing.Point(137, 113);
-            this.GuiQuay.Name = "GuiQuay";
-            this.GuiQuay.Size = new System.Drawing.Size(122, 45);
-            this.GuiQuay.TabIndex = 10;
-            this.GuiQuay.Text = "Gửi quầy";
-            this.GuiQuay.Click += new System.EventHandler(this.GuiQuay_Click);
-            // 
-            // box3ChonMon
-            // 
-            this.box3ChonMon.BackColor = System.Drawing.Color.Transparent;
-            this.box3ChonMon.BorderRadius = 10;
-            this.box3ChonMon.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.box3ChonMon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.box3ChonMon.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.box3ChonMon.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.box3ChonMon.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.box3ChonMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.box3ChonMon.ItemHeight = 30;
-            this.box3ChonMon.Items.AddRange(new object[] {
-            "Cà phê sữa đá",
-            "Bạc xỉu",
-            "Trà đào cam sả",
-            "Nước ép cam",
-            "Sinh tố bơ"});
-            this.box3ChonMon.Location = new System.Drawing.Point(94, 54);
-            this.box3ChonMon.Name = "box3ChonMon";
-            this.box3ChonMon.Size = new System.Drawing.Size(200, 36);
-            this.box3ChonMon.TabIndex = 9;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(7, 70);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(81, 20);
-            this.label16.TabIndex = 9;
-            this.label16.Text = "Chọn món";
-            // 
-            // Xoa_mon
-            // 
-            this.Xoa_mon.Controls.Add(this.guna2ControlBox2);
-            this.Xoa_mon.Controls.Add(this.label14);
-            this.Xoa_mon.Controls.Add(this.label13);
-            this.Xoa_mon.Controls.Add(this.xoaMon);
-            this.Xoa_mon.Controls.Add(this.box2ChonMon);
-            this.Xoa_mon.Location = new System.Drawing.Point(404, 13);
-            this.Xoa_mon.Name = "Xoa_mon";
-            this.Xoa_mon.Size = new System.Drawing.Size(303, 150);
-            this.Xoa_mon.TabIndex = 3;
-            this.Xoa_mon.Visible = false;
-            // 
             // Them_mon
             // 
             this.Them_mon.Controls.Add(this.label15);
@@ -639,7 +474,7 @@ namespace Quản_lý_bán_hàng_cafe
             this.Them_mon.Controls.Add(this.btn_Themmon1);
             this.Them_mon.Controls.Add(this.label11);
             this.Them_mon.Controls.Add(this.box1ChonMon);
-            this.Them_mon.Location = new System.Drawing.Point(360, 33);
+            this.Them_mon.Location = new System.Drawing.Point(333, 9);
             this.Them_mon.Name = "Them_mon";
             this.Them_mon.Size = new System.Drawing.Size(324, 225);
             this.Them_mon.TabIndex = 2;
@@ -677,64 +512,18 @@ namespace Quản_lý_bán_hàng_cafe
             this.label12.TabIndex = 3;
             this.label12.Text = "Số lượng";
             // 
-            // guna2ControlBox1
+            // Xoa_mon
             // 
-            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.Red;
-            this.guna2ControlBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(255, 11);
-            this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox1.TabIndex = 3;
-            // 
-            // btn_Themmon1
-            // 
-            this.btn_Themmon1.BorderRadius = 10;
-            this.btn_Themmon1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_Themmon1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_Themmon1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_Themmon1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Themmon1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Themmon1.ForeColor = System.Drawing.Color.White;
-            this.btn_Themmon1.Location = new System.Drawing.Point(171, 160);
-            this.btn_Themmon1.Name = "btn_Themmon1";
-            this.btn_Themmon1.Size = new System.Drawing.Size(129, 45);
-            this.btn_Themmon1.TabIndex = 2;
-            this.btn_Themmon1.Text = "Thêm";
-            this.btn_Themmon1.Click += new System.EventHandler(this.btn_Themmon1_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(12, 69);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(81, 20);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "Chọn món";
-            // 
-            // box1ChonMon
-            // 
-            this.box1ChonMon.BackColor = System.Drawing.Color.Transparent;
-            this.box1ChonMon.BorderRadius = 10;
-            this.box1ChonMon.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.box1ChonMon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.box1ChonMon.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.box1ChonMon.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.box1ChonMon.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.box1ChonMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.box1ChonMon.ItemHeight = 30;
-            this.box1ChonMon.Items.AddRange(new object[] {
-            "Cà phê sữa đá",
-            "Bạc xỉu",
-            "Trà đào cam sả",
-            "Nước ép cam",
-            "Sinh tố bơ"});
-            this.box1ChonMon.Location = new System.Drawing.Point(100, 53);
-            this.box1ChonMon.Name = "box1ChonMon";
-            this.box1ChonMon.Size = new System.Drawing.Size(200, 36);
-            this.box1ChonMon.TabIndex = 0;
+            this.Xoa_mon.Controls.Add(this.guna2ControlBox2);
+            this.Xoa_mon.Controls.Add(this.label14);
+            this.Xoa_mon.Controls.Add(this.label13);
+            this.Xoa_mon.Controls.Add(this.xoaMon);
+            this.Xoa_mon.Controls.Add(this.box2ChonMon);
+            this.Xoa_mon.Location = new System.Drawing.Point(52, 87);
+            this.Xoa_mon.Name = "Xoa_mon";
+            this.Xoa_mon.Size = new System.Drawing.Size(303, 150);
+            this.Xoa_mon.TabIndex = 3;
+            this.Xoa_mon.Visible = false;
             // 
             // guna2ControlBox2
             // 
@@ -804,6 +593,251 @@ namespace Quản_lý_bán_hàng_cafe
             this.box2ChonMon.Size = new System.Drawing.Size(154, 36);
             this.box2ChonMon.TabIndex = 5;
             // 
+            // guna2ControlBox1
+            // 
+            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.Red;
+            this.guna2ControlBox1.ForeColor = System.Drawing.Color.Black;
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(255, 11);
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox1.TabIndex = 3;
+            // 
+            // btn_Themmon1
+            // 
+            this.btn_Themmon1.BorderRadius = 10;
+            this.btn_Themmon1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_Themmon1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_Themmon1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_Themmon1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_Themmon1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Themmon1.ForeColor = System.Drawing.Color.White;
+            this.btn_Themmon1.Location = new System.Drawing.Point(171, 160);
+            this.btn_Themmon1.Name = "btn_Themmon1";
+            this.btn_Themmon1.Size = new System.Drawing.Size(129, 45);
+            this.btn_Themmon1.TabIndex = 2;
+            this.btn_Themmon1.Text = "Thêm";
+            this.btn_Themmon1.Click += new System.EventHandler(this.btn_Themmon1_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(12, 69);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(81, 20);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Chọn món";
+            // 
+            // box1ChonMon
+            // 
+            this.box1ChonMon.BackColor = System.Drawing.Color.Transparent;
+            this.box1ChonMon.BorderRadius = 10;
+            this.box1ChonMon.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.box1ChonMon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.box1ChonMon.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.box1ChonMon.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.box1ChonMon.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.box1ChonMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.box1ChonMon.ItemHeight = 30;
+            this.box1ChonMon.Items.AddRange(new object[] {
+            "Cà phê sữa đá",
+            "Bạc xỉu",
+            "Trà đào cam sả",
+            "Nước ép cam",
+            "Sinh tố bơ"});
+            this.box1ChonMon.Location = new System.Drawing.Point(100, 53);
+            this.box1ChonMon.Name = "box1ChonMon";
+            this.box1ChonMon.Size = new System.Drawing.Size(200, 36);
+            this.box1ChonMon.TabIndex = 0;
+            // 
+            // ChuyenMon
+            // 
+            this.ChuyenMon.Controls.Add(this.num2_SoLuong);
+            this.ChuyenMon.Controls.Add(this.label20);
+            this.ChuyenMon.Controls.Add(this.guna2ControlBox4);
+            this.ChuyenMon.Controls.Add(this.guna2Button1);
+            this.ChuyenMon.Controls.Add(this.label19);
+            this.ChuyenMon.Controls.Add(this.box4ChonMon);
+            this.ChuyenMon.Controls.Add(this.label18);
+            this.ChuyenMon.Location = new System.Drawing.Point(345, 13);
+            this.ChuyenMon.Name = "ChuyenMon";
+            this.ChuyenMon.Size = new System.Drawing.Size(291, 221);
+            this.ChuyenMon.TabIndex = 5;
+            this.ChuyenMon.Visible = false;
+            // 
+            // num2_SoLuong
+            // 
+            this.num2_SoLuong.BackColor = System.Drawing.Color.Transparent;
+            this.num2_SoLuong.BorderRadius = 10;
+            this.num2_SoLuong.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.num2_SoLuong.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num2_SoLuong.Location = new System.Drawing.Point(90, 116);
+            this.num2_SoLuong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.num2_SoLuong.Name = "num2_SoLuong";
+            this.num2_SoLuong.Size = new System.Drawing.Size(114, 33);
+            this.num2_SoLuong.TabIndex = 9;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(3, 127);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(71, 20);
+            this.label20.TabIndex = 9;
+            this.label20.Text = "Số lượng";
+            // 
+            // guna2ControlBox4
+            // 
+            this.guna2ControlBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox4.FillColor = System.Drawing.Color.Red;
+            this.guna2ControlBox4.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox4.Location = new System.Drawing.Point(232, 5);
+            this.guna2ControlBox4.Name = "guna2ControlBox4";
+            this.guna2ControlBox4.Size = new System.Drawing.Size(45, 31);
+            this.guna2ControlBox4.TabIndex = 14;
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BorderRadius = 10;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(127, 167);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(136, 45);
+            this.guna2Button1.TabIndex = 13;
+            this.guna2Button1.Text = "Chuyển món";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(123, 16);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(97, 20);
+            this.label19.TabIndex = 12;
+            this.label19.Text = "Chuyển món";
+            // 
+            // box4ChonMon
+            // 
+            this.box4ChonMon.BackColor = System.Drawing.Color.Transparent;
+            this.box4ChonMon.BorderRadius = 10;
+            this.box4ChonMon.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.box4ChonMon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.box4ChonMon.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.box4ChonMon.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.box4ChonMon.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.box4ChonMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.box4ChonMon.ItemHeight = 30;
+            this.box4ChonMon.Items.AddRange(new object[] {
+            "Cà phê sữa đá",
+            "Bạc xỉu",
+            "Trà đào cam sả",
+            "Nước ép cam",
+            "Sinh tố bơ"});
+            this.box4ChonMon.Location = new System.Drawing.Point(90, 65);
+            this.box4ChonMon.Name = "box4ChonMon";
+            this.box4ChonMon.Size = new System.Drawing.Size(173, 36);
+            this.box4ChonMon.TabIndex = 12;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(3, 69);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(81, 20);
+            this.label18.TabIndex = 12;
+            this.label18.Text = "Chọn món";
+            // 
+            // Gui_quay
+            // 
+            this.Gui_quay.Controls.Add(this.guna2ControlBox3);
+            this.Gui_quay.Controls.Add(this.label17);
+            this.Gui_quay.Controls.Add(this.GuiQuay);
+            this.Gui_quay.Controls.Add(this.box3ChonMon);
+            this.Gui_quay.Controls.Add(this.label16);
+            this.Gui_quay.Location = new System.Drawing.Point(167, 65);
+            this.Gui_quay.Name = "Gui_quay";
+            this.Gui_quay.Size = new System.Drawing.Size(320, 175);
+            this.Gui_quay.TabIndex = 4;
+            this.Gui_quay.Visible = false;
+            // 
+            // guna2ControlBox3
+            // 
+            this.guna2ControlBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox3.FillColor = System.Drawing.Color.Red;
+            this.guna2ControlBox3.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox3.Location = new System.Drawing.Point(261, 10);
+            this.guna2ControlBox3.Name = "guna2ControlBox3";
+            this.guna2ControlBox3.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox3.TabIndex = 11;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(174, 19);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(72, 20);
+            this.label17.TabIndex = 9;
+            this.label17.Text = "Gửi quầy";
+            // 
+            // GuiQuay
+            // 
+            this.GuiQuay.BorderRadius = 10;
+            this.GuiQuay.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.GuiQuay.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.GuiQuay.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.GuiQuay.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.GuiQuay.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GuiQuay.ForeColor = System.Drawing.Color.White;
+            this.GuiQuay.Location = new System.Drawing.Point(137, 113);
+            this.GuiQuay.Name = "GuiQuay";
+            this.GuiQuay.Size = new System.Drawing.Size(122, 45);
+            this.GuiQuay.TabIndex = 10;
+            this.GuiQuay.Text = "Gửi quầy";
+            this.GuiQuay.Click += new System.EventHandler(this.GuiQuay_Click);
+            // 
+            // box3ChonMon
+            // 
+            this.box3ChonMon.BackColor = System.Drawing.Color.Transparent;
+            this.box3ChonMon.BorderRadius = 10;
+            this.box3ChonMon.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.box3ChonMon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.box3ChonMon.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.box3ChonMon.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.box3ChonMon.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.box3ChonMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.box3ChonMon.ItemHeight = 30;
+            this.box3ChonMon.Items.AddRange(new object[] {
+            "Cà phê sữa đá",
+            "Bạc xỉu",
+            "Trà đào cam sả",
+            "Nước ép cam",
+            "Sinh tố bơ"});
+            this.box3ChonMon.Location = new System.Drawing.Point(94, 54);
+            this.box3ChonMon.Name = "box3ChonMon";
+            this.box3ChonMon.Size = new System.Drawing.Size(200, 36);
+            this.box3ChonMon.TabIndex = 9;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(7, 70);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(81, 20);
+            this.label16.TabIndex = 9;
+            this.label16.Text = "Chọn món";
+            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -853,7 +887,7 @@ namespace Quản_lý_bán_hàng_cafe
             this.btn_Chuyenmon.ForeColor = System.Drawing.Color.White;
             this.btn_Chuyenmon.Location = new System.Drawing.Point(12, 161);
             this.btn_Chuyenmon.Name = "btn_Chuyenmon";
-            this.btn_Chuyenmon.Size = new System.Drawing.Size(141, 45);
+            this.btn_Chuyenmon.Size = new System.Drawing.Size(141, 52);
             this.btn_Chuyenmon.TabIndex = 2;
             this.btn_Chuyenmon.Text = "Chuyển món";
             this.btn_Chuyenmon.Click += new System.EventHandler(this.btn_Chuyenmon_Click);
@@ -1443,24 +1477,24 @@ namespace Quản_lý_bán_hàng_cafe
             // 
             // chart1
             // 
-            chartArea3.AxisX.IntervalOffsetType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Days;
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
+            chartArea1.AxisX.IntervalOffsetType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Days;
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
             this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(3, 184);
             this.chart1.Name = "chart1";
-            series3.BorderWidth = 3;
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series3.Color = System.Drawing.Color.Sienna;
-            series3.Legend = "Legend1";
-            series3.MarkerColor = System.Drawing.Color.Sienna;
-            series3.MarkerSize = 8;
-            series3.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
-            series3.Name = "Doanh thu";
-            this.chart1.Series.Add(series3);
+            series1.BorderWidth = 3;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Color = System.Drawing.Color.Sienna;
+            series1.Legend = "Legend1";
+            series1.MarkerColor = System.Drawing.Color.Sienna;
+            series1.MarkerSize = 8;
+            series1.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
+            series1.Name = "Doanh thu";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(917, 403);
             this.chart1.TabIndex = 2;
             this.chart1.Text = "chart1";
@@ -1542,18 +1576,18 @@ namespace Quản_lý_bán_hàng_cafe
             // 
             // chart2
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea4);
+            chartArea2.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea2);
             this.chart2.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Name = "Legend1";
-            this.chart2.Legends.Add(legend4);
+            legend2.Name = "Legend1";
+            this.chart2.Legends.Add(legend2);
             this.chart2.Location = new System.Drawing.Point(3, 3);
             this.chart2.Name = "chart2";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.chart2.Series.Add(series4);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart2.Series.Add(series2);
             this.chart2.Size = new System.Drawing.Size(917, 584);
             this.chart2.TabIndex = 0;
             this.chart2.Text = "chart2";
@@ -1806,38 +1840,6 @@ namespace Quản_lý_bán_hàng_cafe
             this.guna2ShadowPanel2.Size = new System.Drawing.Size(271, 124);
             this.guna2ShadowPanel2.TabIndex = 0;
             // 
-            // guna2ControlBox4
-            // 
-            this.guna2ControlBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox4.FillColor = System.Drawing.Color.Red;
-            this.guna2ControlBox4.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox4.Location = new System.Drawing.Point(232, 5);
-            this.guna2ControlBox4.Name = "guna2ControlBox4";
-            this.guna2ControlBox4.Size = new System.Drawing.Size(45, 31);
-            this.guna2ControlBox4.TabIndex = 14;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(3, 127);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(71, 20);
-            this.label20.TabIndex = 9;
-            this.label20.Text = "Số lượng";
-            // 
-            // num2_SoLuong
-            // 
-            this.num2_SoLuong.BackColor = System.Drawing.Color.Transparent;
-            this.num2_SoLuong.BorderRadius = 10;
-            this.num2_SoLuong.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.num2_SoLuong.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num2_SoLuong.Location = new System.Drawing.Point(90, 116);
-            this.num2_SoLuong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.num2_SoLuong.Name = "num2_SoLuong";
-            this.num2_SoLuong.Size = new System.Drawing.Size(114, 33);
-            this.num2_SoLuong.TabIndex = 9;
-            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1851,15 +1853,16 @@ namespace Quản_lý_bán_hàng_cafe
             this.tabPage1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
-            this.ChuyenMon.ResumeLayout(false);
-            this.ChuyenMon.PerformLayout();
-            this.Gui_quay.ResumeLayout(false);
-            this.Gui_quay.PerformLayout();
-            this.Xoa_mon.ResumeLayout(false);
-            this.Xoa_mon.PerformLayout();
             this.Them_mon.ResumeLayout(false);
             this.Them_mon.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num1_SoLuong)).EndInit();
+            this.Xoa_mon.ResumeLayout(false);
+            this.Xoa_mon.PerformLayout();
+            this.ChuyenMon.ResumeLayout(false);
+            this.ChuyenMon.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.num2_SoLuong)).EndInit();
+            this.Gui_quay.ResumeLayout(false);
+            this.Gui_quay.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
@@ -1890,7 +1893,6 @@ namespace Quản_lý_bán_hàng_cafe
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
             this.tabPage9.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.num2_SoLuong)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -88,8 +88,7 @@ namespace Quản_lý_bán_hàng_cafe
         private void btn_Themmon_Click(object sender, EventArgs e)
         {
             Them_mon.BringToFront();
-
-
+            Them_mon.Visible = true;
         }
 
         //Them mon
@@ -115,6 +114,8 @@ namespace Quản_lý_bán_hàng_cafe
                             MessageBox.Show("Da them mon thanh cong");
 
                             Data_Load();
+
+                            Them_mon.Visible = false;
                         }
 
                     }
@@ -131,6 +132,7 @@ namespace Quản_lý_bán_hàng_cafe
         private void btn_Xoamon_Click(object sender, EventArgs e)
         {
             Xoa_mon.BringToFront();
+            Xoa_mon.Visible = true;
         }
 
 
@@ -155,6 +157,8 @@ namespace Quản_lý_bán_hàng_cafe
                             MessageBox.Show("Da xoa thanh cong");
 
                             Data_Load();
+
+                            Xoa_mon.Visible = false;
                         }
                     }
                 }
@@ -170,7 +174,7 @@ namespace Quản_lý_bán_hàng_cafe
         private void btn_Guiquay_Click(object sender, EventArgs e)
         {
             GuiQuay.BringToFront();
-            
+            GuiQuay.Visible = true;
         }
 
         //Gui quay pha che
@@ -195,6 +199,8 @@ namespace Quản_lý_bán_hàng_cafe
                             MessageBox.Show("Da gui yeu cau");
 
                             Data_Load();
+
+                            GuiQuay.Visible = false;
                         }
                     }
                 }
@@ -208,6 +214,7 @@ namespace Quản_lý_bán_hàng_cafe
         private void btn_Chuyenmon_Click(object sender, EventArgs e)
         {
             ChuyenMon.BringToFront();
+            ChuyenMon.Visible = true;
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -236,6 +243,8 @@ namespace Quản_lý_bán_hàng_cafe
                             MessageBox.Show("Da chuyen mon thanh cong");
 
                             Data_Load();
+
+                            ChuyenMon.Visible = false;
                         }
 
                     }
